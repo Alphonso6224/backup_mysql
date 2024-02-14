@@ -1,4 +1,4 @@
-Voici un exemple de README pour expliquer l'utilisation du script de sauvegarde de base de données MySQL :
+Voici la mise à jour du README pour inclure les instructions sur l'installation du module `schedule` :
 
 ---
 
@@ -11,16 +11,17 @@ Ce script Python vous permet de sauvegarder une base de données MySQL en utilis
 - Python 3.x installé sur votre système.
 - Accès à une base de données MySQL que vous souhaitez sauvegarder.
 - Le module Python `configparser` doit être installé si vous souhaitez utiliser un fichier de configuration.
+- Le module Python `schedule` doit être installé pour la planification des sauvegardes.
 
 ## Installation des Dépendances
 
 ```bash
-pip install configparser
+pip install configparser schedule
 ```
 
 ## Configuration
 
-1. Remplissez le fichier `config.ini` à la racine du projet avec les informations suivantes :
+1. Créez un fichier `config.ini` à la racine du projet avec les informations suivantes :
 
 ```ini
 [mysql]
